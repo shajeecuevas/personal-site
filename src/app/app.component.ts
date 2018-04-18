@@ -3,11 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.less']
 })
 export class AppComponent {
   title = 'This is the title';
-  projects = 'Projects';
-  blog = 'Blog';
-  aboutme = 'About Me';
+  projects = 'Some of my Projects will appear here';
+  blog = 'My Blog goes here';
+  aboutme = 'Placeholder Text for About Me';
 }
