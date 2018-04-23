@@ -5,6 +5,13 @@ import { Component } from '@angular/core';
     template: `
     <div class="col-lg-12 text-center">
         <h2> Blog </h2>
+        <h2> Blog </h2>
+        <h2> Blog </h2>
+        <h2> Blog </h2>
+        <h2> Blog </h2>
+        <h2> Blog </h2>
+        <h2> Blog </h2>
+        <h2> Blog </h2>
     </div>
     `,
     styleUrls: ['./blog.component.less']
