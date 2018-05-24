@@ -11,20 +11,24 @@ import { Component } from '@angular/core';
         </div>
         <div class="row">
             <div class="col-sm-4 portfolio-item">
-                <div class="caption">
-                    <div class="caption-content">
+                <a class="projects-link">
+                    <div class="caption">
+                        <div class="caption-content">
+                        <img src="/../assets/img/SFVlogo.png" class="img-responsive" alt="Street Fighter Frame App">
+                        </div>
                     </div>
-                </div>
-                <img src="/../../img/tek7.png" class="img-fluid" alt="Responsive image">
+                </a>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 portfolio-item">
-                <div class="caption">
-                    <div class="caption-content">
-                    </div>
+            <div>
+                <div class="col-sm-4 portfolio-item">
+                    <a class="projects-link">
+                        <div class="caption">
+                            <div class="caption-content">
+                            </div>
+                        </div>
+                        <img src="/../assets/img/tek7.png" class="img-responsive" alt="Tekken Tournament Organizer">
+                    </a>
                 </div>
-                <img src="/../img/SFVlogo.png" alt="Street Fighter Frame App">
             </div>
         </div>
     </div>
