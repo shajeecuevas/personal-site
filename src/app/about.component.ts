@@ -3,9 +3,13 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'about-component',
     template: `
-    <div class="col-lg-12 text-center">
-        <h2> About Me </h2>
-        <p> I am a developer </p>
+    <div class="col-lg-12 margin-top">
+        <div class="intro-text">
+            <h1 class="name">Welcome!</h1>
+            <img class="img-responsive img-circle" src="/../assets/img/croppedPic.png" alt="Akuma">
+            <span class="skills">Web Developer - Tech Enthusiast - Gamer</span>
+            <hr class="star-light">
+        </div>
     </div>
     <h2> Skills </h2>
     <div>
